@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <title>NYSL Registration</title>
+    <link rel="icon" href="Assets/nysl_logo.png">
+</head>
+
+<body>
+    <div class="banner_section">
+        <h1>Northside Youth Soccer League</h1>
+        <h2>Registration Form</h2>
+        <div class="logo"></div>
+    </div>
+    <div class="nav_section">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="game_information.html">Game Info</a></li>
+            <li><a href="rules.html">Rules</a></li>
+            <li><a href="registration_form.html">Registration</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </div>
+    <div class="content_section">
+        <div class="form_container">
+            <form class="form" action="show_data.html">
+                <div class="form_main_info">
+                    Player’s First Name:<input type="text" name="first_name" size="35" required> Last Name:<input type="text" name="last_name" size="35" required><br>
+                    Street Address:<input type="text" name="street_address" size="35" required><br>
+                    City:<input type="text" name="city" size="35" required>Zip Code:<input type="text" name="zip_code" size="35" required><br>
+                    Birth Date (mm/dd/yyyy):<input type="text" name="birth_date" size="35" required><br>
+                    Gender:
+                    <input type="radio" name="gender" value="male" checked required> Male
+                    <input type="radio" name="gender" value="female"> Female<br>
+                    Grade:
+                    <input type="radio" name="grade" value="pre-school" checked required> Pre-school
+                    <input type="radio" name="grade" value="1st"> 1st
+                    <input type="radio" name="grade" value="2nd"> 2nd
+                    <input type="radio" name="grade" value="3rd"> 3rd
+                    <input type="radio" name="grade" value="4th"> 4th
+                    <input type="radio" name="grade" value="5th"> 5th<br>
+                    Parent/Guardian:<input type="text" name="parent_guardian" size="70" required><br>
+                    Contact Phone:<input type="text" name="contact_phone" size="35"> Contact Email:<input type="text" name="contact_email" size="35" required><br><br>
+                </div>
+                <div class="form_school_choice">
+                    <b>Which elementary schools do you live near?</b><br>
+                </div>
+                <div class="form_elementary_1">
+                    <b>First Closest School:</b><br>
+                    <input type="radio" name="first_school" value="aj_katzenmaier" checked required>AJ Katzenmaier <br>
+                    <input type="radio" name="first_school" value="majorie_p_hart">Marjorie P Hart <br>
+                    <input type="radio" name="first_school" value="greenbay">Greenbay <br>
+                    <input type="radio" name="first_school" value="north_elementary">North Elementary <br>
+                    <input type="radio" name="first_school" value="howard_a_yaeger">Howard A Yeager <br>
+                    <input type="radio" name="first_school" value="south_elementary">South Elementary<br>
+                </div>
+                <div class="form_elementary_2">
+                    <b>Second Closest School:</b><br>
+                    <input type="radio" name="second_school" value="aj_katzenmaier" checked required>AJ Katzenmaier <br>
+                    <input type="radio" name="second_school" value="majorie_p_hart">Marjorie P Hart <br>
+                    <input type="radio" name="second_school" value="greenbay">Greenbay <br>
+                    <input type="radio" name="second_school" value="north_elementary">North Elementary <br>
+                    <input type="radio" name="second_school" value="howard_a_yaeger">Howard A Yeager <br>
+                    <input type="radio" name="second_school" value="south_elementary">South Elementary<br><br>
+                </div>
+                <div class="form_played_positions">
+                    <b>What position(s) do you normally play?</b><br>(check all that apply)<br>
+                    <input type="checkbox" name="norm_forw" value="forward">Forward <br>
+                    <input type="checkbox" name="norm_defe" value="defense">Defense <br>
+                    <input type="checkbox" name="norm_midf" value="midfield">Midfield <br>
+                    <input type="checkbox" name="norm_goal" value="goalkeeper">Goalkeeper <br>
+                </div>
+                <div class="form_pref_positions">
+                    <b>What position(s) do you want to play?</b><br>(check all that apply) <br>
+                    <input type="checkbox" name="pref_forw" value="forward_pref">Forward <br>
+                    <input type="checkbox" name="pref_defe" value="defense_pref">Defense <br>
+                    <input type="checkbox" name="pref_defe" value="midfield_pref">Midfield <br>
+                    <input type="checkbox" name="prefs_defe" value="goalkeeper_pref">Goalkeeper <br><br>
+                </div>
+                <div class="form_uniform_owned">
+                    <input type="checkbox" value="uniform_owned"><b>Already Have a Uniform</b>
+                </div>
+                <div class="form_jersey">
+                    <b>Jersey Size</b><br>
+                    <input type="radio" name="jersey_size" value="youth_small" checked required>Youth Small <br>
+                    <input type="radio" name="jersey_size" value="youth_medium">Youth Medium <br>
+                    <input type="radio" name="jersey_size" value="youth_large">Youth Large <br>
+                    <input type="radio" name="jersey_size" value="small">Small <br>
+                    <input type="radio" name="jersey_size" value="medium">Medium <br>
+                    <input type="radio" name="jersey_size" value="large">Large <br>
+                    <input type="radio" name="jersey_size" value="extra_large">Extra-Large <br>
+                </div>
+                <div class="form_shorts">
+                    <b>Shorts Size</b><br>
+                    <input type="radio" name="shorts_size" value="youth_small" checked required>Youth Small <br>
+                    <input type="radio" name="shorts_size" value="youth_medium">Youth Medium <br>
+                    <input type="radio" name="shorts_size" value="youth_large">Youth Large <br>
+                    <input type="radio" name="shorts_size" value="small">Small <br>
+                    <input type="radio" name="shorts_size" value="medium">Medium <br>
+                    <input type="radio" name="shorts_size" value="large">Large <br>
+                    <input type="radio" name="shorts_size" value="extra_large">Extra-Large <br><br>
+                </div>
+                <div class=form_permission>
+                    <u><b>Permission to Play</b></u>
+                    <p>I, the parent or guardian of the minor registrant, agree that the registrant and I will abide by all the rules of the Northside Youth
+                        Soccer League (NYSL). In recognizing the possibility of physical injury associated with soccer and in consideration for the “League”
+                        accepting the registrant for its soccer programs and activities, I hereby release, discharge, and/or otherwise indemnify NYSL, their
+                        employees and associated personnel and volunteers, including the facilities used for practices and games, against any claim by or
+                        on behalf of the registrant as a result of the registrant’s participation in the program and/or being transported to or from NYSL
+                        sponsored activities, which transportation.</p>
+                    <p>By signing below, I hereby agree and authorize the above. In addition, by signing below, I also acknowledge that I have read the
+                        cancellation policy and agree to its terms. </p>
+                    Parent/Guardian Signature:<input type="text" name="parent_sig" size="65" required> <br>
+                    Date:<input type="text" name="date" size="35" required><br>
+                </div>
+                <div class="form_submit"><input type="submit" value="Submit"></div> <br><br>
+            </form>
+        </div>
+    </div>
+</body>
